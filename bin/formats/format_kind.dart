@@ -6,7 +6,6 @@ import 'text_file_format.dart';
 /// Get instance of all formats class.
 List<FormatHoldable> instanceAllFormats() {
   return [
-    AboutLibrariesFormat(),
-    SettingsBundlePlistFormat(),
+    TextFileFormat(),
   ];
 }
