@@ -11,6 +11,7 @@ abstract class FormatHoldable implements FormatWritable {
   List<dynamic> _holder = [];
 
   /// list of format that can display the license list.
+
   List<dynamic> get outputTargets => List.unmodifiable(_holder);
 
   /// Format the license information per library.
